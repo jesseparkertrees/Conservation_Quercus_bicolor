@@ -9,7 +9,7 @@ Data processing and analysis for RADseq data of Quercus bicolor available at htt
 
 DESCRIPTION OF FILES IN main directory
 
-File: "rcode.R" Description: R file containing code for all analyses.
+File: "rcode.R" Description: R file containing code for all analyses./
 File: "qubi.vcf" Description: VCF file of the 135 sampled individuals filtered to a call rate of 1 (7955 biallelic SNPs). 
 File: "qubi95.vcf" Description: VCF file of the 135 sampled individuals filtered to a call rate of 0.95 (100968 biallelic SNPs). 
 File: "ch33.csv" Description: Summary of individuals selected for final orchard.
