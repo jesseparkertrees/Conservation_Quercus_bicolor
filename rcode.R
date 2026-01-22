@@ -199,6 +199,11 @@ plot <- ggplot(het, aes(x = Ho, fill = rangepos)) +
 
 plot
 
+library("coin")
+het$rangepos <- as.factor(het$rangepos)
+wilcox_test(het$Ho ~ het$rangepos, distribution = "approximate")
+library(car)
+leveneTest(Ho ~ rangepos, data = het)
 
 #################################################################################################################
 ##################### V. ALLELE RAREFACTION without hybrid filters #################################################
